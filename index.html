@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Arkanoid</title>
+
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="shortcut icon" href="./asset/image/logo.jpeg" />
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Break Brick</h1>
+    </div>
+    <div class="flex">
+      <div class="wrapper">
+        <div class="card">
+          <div class="item-front"><h3>Les Règles</h3></div>
+          <div class="item-back">
+            <div class="content">
+              <div class="item-title">
+                <h4>Explications :</h4>
+              </div>
+              <div class="item-text">
+                <p>
+                  -Au début du jeu vous avez 3 vie et vous en perdez une à
+                  chaque fois que la balle tombe<br />
+                  <br />
+                  -Vous gagner des points quand les briques se casse et vous
+                  passer au niveau suivant<br />
+                  <br />
+                  -Vous gagner quand toute les briques sont briques<br />
+                  <br />
+                  -Vous perdez quand vous n'avez plus de vie<br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper2">
+        <div class="card2">
+          <div class="item-front"><h3>Les Touches</h3></div>
+          <div class="item-back">
+            <div class="content">
+              <div class="item-title">
+                <h4>Explications</h4>
+              </div>
+              <div class="item-text">
+                <p>
+                  -espace : permet de lancer le jeu ainsi qu'augmenter la vitesse de la barre et de la balle
+                  <br />
+                  <br />
+                  -échap : permet d'afficher un petit menu pause
+                  <br />
+                  <br />
+                  -la fleche de gauche : permet de bouger la barre à gauche
+                  <br />
+                  <br />
+                  -la flèche de droite : permet de bouger la barre à droite
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="msg">
+      <h1 id="message">Bienvenu dans le jeu</h1>
+      <div id="credits"> Créer par : Antoine RICHARD </div> 
+    </div> 
+
+    <div id="pause">
+      <img id="pause1" src="./asset/image/pause.jpg" alt="titre" >
+      <div id="resume">Resume</div>
+      <div id="restart">Play Again !</div>
+    </div>
+    <div id="gameover">
+      <img id="lose" src="./asset/image/game_over.jpg" alt="game over">
+      <img id="won" src="./asset/image/win.jpg" alt="win">
+      <div id="restart1">Play Again !</div>
+    </div>
+    <canvas id="jeu" width="650" height="500"></canvas>
+    <script src="./asset/js/components.js"></script>
+    <script src="./asset/js/script.js"></script>
+  </body>
+</html>
