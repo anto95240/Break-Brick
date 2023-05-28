@@ -1,0 +1,8 @@
+1/ mettre le jeu en pause quand on est dans le menu pause
+2/ changer les variables et nom de fonction                        FAIT
+3/ changer quelque couleur                                         FAIT
+
+        PROJET A RENDRE POUR LE 23/04
+1/ faire un PowerPoint
+
+
