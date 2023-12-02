@@ -27,11 +27,15 @@
 /* message d'accueil */
 
 #msg {
-  position: absolute;
-  margin-left: 625px;
-  margin-top: 225px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-} 
+  justify-content: center;
+  flex-direction: column;
+}
 
 #message{
   text-decoration: underline;  
@@ -48,9 +52,11 @@
 #pause {
   width: 350px;
   height: 250px;
-  position: absolute;
-  margin-left: 570px;
-  margin-top: 175px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   display: none;
   background: rgb(123, 123, 123, 0.9);
   z-index: 1;
@@ -83,13 +89,14 @@
 /* Game Over */
 
 #gameover {
-  position: absolute;
+  position: fixed;
   width: 650px;
   height: 500px;
   background: rgba(0, 0, 0, 0.5);
   display: none;
-  margin-left: 435px;
-  top: 130px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 
