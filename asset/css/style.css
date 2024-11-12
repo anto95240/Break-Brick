@@ -186,7 +186,7 @@
   height: 100%;
   border-radius: 25px;
   display: flex;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(63, 116, 181, 0.8);
   
 }
 
@@ -194,7 +194,7 @@
   transform: rotateY(180deg);
   position: absolute;
   border-radius: 25px;
-  background: rgba(73, 73, 73, 0.8);
+  background: rgba(63, 116, 181, 0.8);
 }
 
 .item-front h3 {
