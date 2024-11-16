@@ -17,7 +17,3 @@ Ce projet est une version web du jeu de casse. Le jeu permet aux utilisateurs de
 
 - **/asset/** : Dossier contenant les styles css, script JS et images du jeu.
 - **/index.html** : Fichier HTML principal représentant l'interface du jeu.
-
-### Réaliser par : 
-
-- RICHARD Antoine
