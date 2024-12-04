@@ -8,10 +8,5 @@ Ce projet est une version web du jeu de casse. Le jeu permet aux utilisateurs de
 - HTML
 - CSS
 
-## Structure des fichiers
-
-- **/asset/** : Dossier contenant les styles css, script JS et images du jeu.
-- **/index.html** : Fichier HTML principal représentant l'interface du jeu.
-
 ## Autre info
 Vous pouvez consulter une version en ligne [ici](https://arichard-arkanoid.fr).
